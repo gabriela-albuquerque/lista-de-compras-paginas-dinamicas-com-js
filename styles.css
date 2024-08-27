@@ -62,7 +62,7 @@ p {
     text-align: left;
 }
 
-#input-item {
+.input-item {
     padding: 12px 16px;
     display: block;
     border-radius: 24px;
@@ -70,13 +70,13 @@ p {
     width: 307px;
 }
 
-#input-item::placeholder {
+.input-item::placeholder {
     font-family: "Monserrat", sans-serif;
     font-size: 16px;
     line-height: 19px;
 }
 
-#adicionar-botao {
+.button-iten {
     text-align: center;
     padding: 12px 16px;
     border-radius: 24px;
@@ -95,7 +95,7 @@ form {
     gap: 8px;
 }
 
-.item-lista-container{
+.lista-item-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,7 +115,7 @@ ul {
     line-height: 20px;
 }
 
-.checkbox-input {
+.input-checkbox {
     display: none;
 }
 
@@ -147,7 +147,7 @@ ul {
     transform: rotate(-140deg);
 }
 
-.botao-acao {
+.item-lista-button {
     background-color: transparent;
     border: none;
 }
