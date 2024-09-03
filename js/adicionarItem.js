@@ -16,4 +16,5 @@ export function adicionarItem(evento) {
     const itemDaLista = criarItemDaLista(item.value);
     listaDeCompras.appendChild(itemDaLista);
     verificarListaVazia(listaDeCompras);
+    item.value = "";
 }
